@@ -15,6 +15,8 @@ layout: page
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">{{ profile.username }}</h2>
         <p class="description">{{ profile.description }}</p>
+				<p>Fullstack Developer + Data analyst 😆</p>
+				<p>데이터에 관심 많음</p>
 
         <ul id="icons">
           {% include icons.html %}
@@ -31,7 +33,7 @@ layout: page
         {% for exp in  profile.experience %}
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
-          <p class="description">{{ exp.experience }}</p>
+          <p class="description" style="">{{ exp.experience }}</p>
         </li>
         {% endfor %}
       </ul>

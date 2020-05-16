@@ -1,12 +1,40 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https:// # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
-    summary : A awesome jekyll theme!
-    description : This project is my first jekyll theme. and everyone can customize this easily.  
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://docs.google.com/presentation/d/15sN5Ru3IKQx7g6PYB0yuWQFQgX5qIF1tivGyCkF7Yd8/edit?usp=sharing # Full URL
+    image : "project1.png" # path: assets/project/
+    date : 2019.08 - 2019.12
+    title : B2C, C2C App
+    summary : 금방 zikeum용 어플
+    description :  블록체인을 기반 금거래 B2C, C2C App
+    contents :
+        - title : 1. 블로그 첫 화면 구성
+          image : home.png
+          description : <li>Responsive Layout</li>
+            <li>User Profile</li> 
+            <li>Tags</li> 
+            <li>Projects</li> 
+            <li>Pagination</li>
+        - title : 2. 태그 페이지
+          image : tags.png
+          description : <li>Responsive Layout</li> 
+            <li>Tags</li> 
+        - title : 3. 남은 개발 과제
+          image :
+          description : <li>project 부분 디자인 변경</li>
+            <li>favicon.ico, search 기능</li>
+            <li>OG Tag 추가</li>
+            <li>profile 이미지 효과</li>
+            <li>gem 배포</li> 
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://play.google.com/store/apps/details?id=com.keumbang.upstoregoldprice&hl=ko
+    image :  "project2.png" # path: assets/project/
+    date : 2019.08 - 2019.12
+    title : 금시세 App
+    summary : 금방 금시세 어플
+    description :  금거래를 위한 시세 제공 App
     contents :
         - title : 1. 블로그 첫 화면 구성
           image : home.png
@@ -27,12 +55,3 @@
             <li>profile 이미지 효과</li>
             <li>gem 배포</li> 
 
-- project :
-    print : False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Dummy project
-    summary : This is Dummy
-    description :  

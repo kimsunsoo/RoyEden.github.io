@@ -5,25 +5,49 @@ url : "https://kimsunsoo.github.io"
 # Blog Settings
 theme_settings :
   title : RoyEden Blog
-  favicon : assets/favicon.ico
+  favicon : assets/smile.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
     username : Sunsoo Kim
-    description : I make useful stuff. Fullstack Developer + Data analyst 😆
+    description : I make useful stuff. 
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2019-08
+        end : 2019-12
+        experience : (주)금방, Fullstack 개발 && 유지보수 && 기획)
+      - start : 2019-10
+        end : 
+        experience : AWS Graphql을 통해 serverless와 백엔드 개발
+      - start : 2019-10
+        end : 
+        experience : 개발 상품 기획 - 프로젝트 개발 기획, 협업
+      - start : 2019-06
+        end : 
+        experience : Hyperleger-fabric docker를 이용한 peer와 orderer 블록체인 체인코드 개발
+      - start : 2019-06
+        end : 2019-10
+        experience : 블록체인 (한국 표준협회, 한국블록체인연구교육원) Hyperleger-fabric, Ethereum 개발
+      - start : 2019-01
+        end : 
+        experience : HTML, CSS, JavaScript, algorithm,_Underscore 함수 구현
     skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+      - skill : React, React-native
+        value : 90  # Percent value
+      - skill : Node.js, Django
+        value : 70  # Percent value
+      - skill : Mysql, MongoDB  
+        value : 70  # Percent value
+      - skill : Graphql, Prisma, Apollo
+        value : 60  # Percent value
+      - skill : AWS, Firebase 
+        value : 60  # Percent value
+      - skill : Hyperleger-fabric, Ethereum
+        value : 30  # Percent value
+      - skill : Machine Learning, Deep Learning
+        value : 1  # Percent value
+      - skill : Data analysis
+        value : 1  # Percent value
         
   # Icons
   icons :
@@ -46,10 +70,24 @@ theme_settings :
 paginate: 5
 paginate_path: "blog/page:num"
 
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   sort_reverse: true
+#   title: ':title'
+#   permalink: 'blog/page/:num_'
+#   trail: 
+#     before: 2
+#     after: 2
+
+
 # Build Ssttings
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  # - jekyll-paginate-v2
+
 bootstrap:
   assets: true
