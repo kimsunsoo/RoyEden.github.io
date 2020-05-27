@@ -17,7 +17,7 @@ layout: default
     </aside>
     <!-- Post List -->
     <section id="posts" class="col-md-8">
-			{% assign sorted_posts = paginator.posts | sort: 'date'  %}
+			{% assign sorted_posts = paginator.posts | sort: 'date' | reverse %}
       {% for post in  sorted_posts %}
       <div class="post">
         <a href="{{ post.url | relative_url }}">
