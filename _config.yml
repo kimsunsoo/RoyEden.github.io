@@ -87,6 +87,7 @@ sass:
   style: :compressed
 plugins: 
   - jekyll-paginate
+  - jekyll-jupyter-notebook
   # - jekyll-paginate-v2
 
 bootstrap:

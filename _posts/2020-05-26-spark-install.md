@@ -105,11 +105,11 @@ sudo hostname -s 127.0.0.1
 
 ```
 Welcome to
-      ____              __
-     / __/__  ___ _____/ /__
-    _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 2.4.5
-      /_/
+    ____              __
+   / __/__  ___ _____/ /__
+  _\ \/ _ \/ _ `/ __/  '_/
+ /___/ .__/\_,_/_/ /_/\_\   version 2.4.5
+    /_/
          
 Using Scala version 2.11.12 (OpenJDK 64-Bit Server VM, Java 14.0.1)
 Type in expressions to have them evaluated.

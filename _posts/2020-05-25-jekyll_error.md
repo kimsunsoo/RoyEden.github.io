@@ -32,7 +32,7 @@ brew install rbenv ruby-build
 
 rbenv install 2.6.5 
 
-rbenv global 2.6.5
+y
 
 rbenv versions
 
